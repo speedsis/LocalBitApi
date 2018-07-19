@@ -1,0 +1,14 @@
+{
+  "name": "Trust Wallet Backend",
+  "description": "Backend API for the Trust Wallet App",
+  "env": {
+    "MONGODB_URI": {
+      "description": "URI of your mongo DB.",
+      "value": "mongodb://speedsis:bwc8817@ds018168.mlab.com:18168/trust-wallet"
+    },
+    "RPC_SERVER": {
+      "description": "RPC URL of your blockchain node.",
+      "value": "http://ec2-54-200-198-248.us-west-2.compute.amazonaws.com:8545"
+    }
+  }
+}
